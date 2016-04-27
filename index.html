@@ -43,8 +43,10 @@
 
     <div class="searchBar">
         <input ng-model="input">
-        <button ng-click="searchButton()">Search</button>
+        <button ng-click="searchButton()" class="btn btn-primary">Search</button>
     </div>
+    
+    <div class="loading" ng-show="loading"><img src="img/loading.gif"/></div>
 
     <div class="results" ng-show="showResult" ng-bind-html="wikiObject">{{wikiObject}}</div>
 
