@@ -3,7 +3,7 @@ angular.module('myApp', ["ngSanitize"])
 .controller('homeController', ['$scope', '$http', function ($scope, $http) {
 
     $scope.input;
-    $scope.beginUrl = "http://en.wikipedia.org/w/api.php?titles="
+    $scope.beginUrl = "https://en.wikipedia.org/w/api.php?titles="
     $scope.endUrl = "&rawcontinue=true&action=query&format=json&prop=extracts&callback=JSON_CALLBACK"
     $scope.showResult = false;
     $scope.loading = false;
