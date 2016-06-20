@@ -1,24 +1,25 @@
 {
-  "name": "Wiki_Hack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "angular-sanitize": "^1.5.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oneprincess789/wikihack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oneprincess789/wikihack/issues"
-  },
-  "homepage": "https://github.com/oneprincess789/wikihack#readme"
+    "name": "Wiki_Hack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "angular-sanitize": "^1.5.5"
+    },
+    "start": "node app.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oneprincess789/wikihack.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/oneprincess789/wikihack/issues"
+    },
+    "homepage": "https://github.com/oneprincess789/wikihack#readme"
 }
