@@ -15,11 +15,17 @@ angular.module('myApp', ["ngSanitize"])
             var obj = data.data.query.pages;
             var pageId = Object.keys(obj)[0];
             console.log(data);
-            $scope.wikiObject = obj[pageId].extract; 
+            $scope.wikiObject = obj[pageId].extract;
             $scope.showResult = true;
             $scope.input = "";
             $scope.loading = false;
         })
 
-    }; 
+    };
+
+
 }]);
+
+http.listen(process.env.PORT || 3000, function () {
+    console.log('listening on', http.address().port);
+});
