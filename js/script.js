@@ -23,9 +23,8 @@ angular.module('myApp', ["ngSanitize"])
 
     };
 
+    $http.listen(process.env.PORT || 3000, function () {
+        console.log('listening on', http.address().port);
+    });
 
 }]);
-
-http.listen(process.env.PORT || 3000, function () {
-    console.log('listening on', http.address().port);
-});
